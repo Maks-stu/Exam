@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Hunta\source\repos\exam_20260411\WpfApp\obj\Debug\net9.0-windows\
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\WpfApp\obj\Debug\net9.0-windows\
 WpfApp
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Hunta\source\repos\exam_20260411\WpfApp\App.xaml
-11407045341
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\WpfApp\App.xaml
+11-1239348891
 
-6-1005091634
-215-1299740403
-MainWindow.xaml;
+16-2080783258
+215-1915022870
+MainWindow.xaml;Windows\CategoryRedactWindow.xaml;Windows\ChoiceWindow.xaml;Windows\ManufactureReadactWindow.xaml;Windows\OrderItemRedactWindow.xaml;Windows\OrderRedactWindow.xaml;Windows\PickupPointRedactWindow.xaml;Windows\ProductRedactWindow.xaml;Windows\RoleRedactWindow.xaml;Windows\SupplierRedactWindow.xaml;Windows\UserRedactWindow.xaml;
 
-False
+True
 

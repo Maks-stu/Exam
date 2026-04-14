@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u041C\u0430\u043A\u0441\u0438\u043C\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\\Shablon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\user\\desktop\\\u043C\u0430\u043A\u0441\u0438\u043C\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\\shablon\\wpfapp\\windows\\orderredactwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\windows\\orderredactwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\user\\desktop\\\u043C\u0430\u043A\u0441\u0438\u043C\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u043F\u043E\\\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\\shablon\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 227,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041C\u0430\u043A\u0441\u0438\u043C\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\\Shablon\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041C\u0430\u043A\u0441\u0438\u043C\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\\Shablon\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACsDAAAAAAAAAAAQwDQDAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:22:56.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRedactWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041C\u0430\u043A\u0441\u0438\u043C\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\\Shablon\\WpfApp\\Windows\\OrderRedactWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Windows\\OrderRedactWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041C\u0430\u043A\u0441\u0438\u043C\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u041F\u041E\\\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\\Shablon\\WpfApp\\Windows\\OrderRedactWindow.xaml.cs \u2B24",
+              "RelativeToolTip": "WpfApp\\Windows\\OrderRedactWindow.xaml.cs \u2B24",
+              "ViewState": "AgIAAL4AAAAAAAAAAADwv8wAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:19:27.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

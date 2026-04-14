@@ -5,8 +5,133 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1200">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="10" Grid.Row="0">
+            <Menu x:Name="Menu" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+                <MenuItem Header="Меню">
+                    <MenuItem Header="Категории товаров">
+                        <MenuItem Header="Добавить" Click="AddCategory"/>
+                        <MenuItem Header="Изменить" Click="RedactCategory"/>
+                        <MenuItem Header="Удалить" Click="DeleteCategory"/>
+                    </MenuItem>
+                    <MenuItem Header="Производители">
+                        <MenuItem Header="Добавить" Click="AddManufacture"/>
+                        <MenuItem Header="Изменить" Click="RedactManufacture"/>
+                        <MenuItem Header="Удалить" Click="DeleteManufacture"/>
+                    </MenuItem>
+                    <MenuItem Header="Заказы">
+                        <MenuItem Header="Добавить" Click="AddOrder"/>
+                        <MenuItem Header="Изменить" Click="RedactOrder"/>
+                        <MenuItem Header="Удалить" Click="DeleteOrder"/>
+                    </MenuItem>
+                    <MenuItem Header="Пункты выдачи">
+                        <MenuItem Header="Добавить" Click="AddPickupPoint"/>
+                        <MenuItem Header="Изменить" Click="RedactPickupPoint"/>
+                        <MenuItem Header="Удалить" Click="DeletePickupPoint"/>
+                    </MenuItem>
+                    <MenuItem Header="Товары">
+                        <MenuItem Header="Добавить" Click="AddProduct"/>
+                        <MenuItem Header="Изменить" Click="RedactProduct"/>
+                        <MenuItem Header="Удалить" Click="DeleteProduct"/>
+                    </MenuItem>
+                    <MenuItem Header="Роли">
+                        <MenuItem Header="Добавить" Click="AddRole"/>
+                        <MenuItem Header="Изменить" Click="RedactRole"/>
+                        <MenuItem Header="Удалить" Click="DeleteRole"/>
+                    </MenuItem>
+                    <MenuItem Header="Поставщики">
+                        <MenuItem Header="Добавить" Click="AddSupplier"/>
+                        <MenuItem Header="Изменить" Click="RedactSupplier"/>
+                        <MenuItem Header="Удалить" Click="DeleteSupplier"/>
+                    </MenuItem>
+                    <MenuItem Header="Пользователи">
+                        <MenuItem Header="Добавить" Click="AddUser"/>
+                        <MenuItem Header="Изменить" Click="RedactUser"/>
+                        <MenuItem Header="Удалить" Click="DeleteUser"/>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Поиск"/>
+                <TextBox x:Name="Search" Width="100" TextChanged="Search_Changed"/>
+                <MenuItem x:Name="Count" Header="Количество товаров на складе" Click="Count_Click"/>
+                <MenuItem x:Name="Suppliers" Header="Поставщики"/>
+            </Menu>
+        </Grid>
+        <Grid Margin="10" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MinWidth="300" MaxWidth="550"/>
+                <ColumnDefinition Width="*" MinWidth="500"/>
+            </Grid.ColumnDefinitions>
+            <Grid Margin="10" Grid.Column="0">
+                <ListBox x:Name="Products_Table" SelectionChanged="Products_Table_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel x:Name="Product_Table_Item" Background="{Binding Path=BackGround}" Orientation="Horizontal" Height="150" Width="550">
+                                <Image Source="{Binding Path=Image}" Height="100" Width="100"/>
+                                <Grid Height="150" Width="350">
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Path=Category}" VerticalAlignment="Center" FontSize="14" FontFamily="Times New Roman"></TextBlock>
+                                            <Label Content=" | " VerticalAlignment="Center" FontSize="14" FontFamily="Times New Roman"/>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Path=Name}" VerticalAlignment="Center" FontSize="14" FontFamily="Times New Roman"></TextBlock>
+                                        </StackPanel>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding Path=Description, StringFormat='Описание товара: {0}'}"></TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding Path=Manufacturer, StringFormat='Производитель: {0}'}"></TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding Path=Supplier, StringFormat='Поставщик: {0}'}"></TextBlock>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="Цена: " TextWrapping="Wrap"/>
+                                            <TextBlock Foreground="{Binding Path=OldPriceBG}" TextWrapping="Wrap" Text="{Binding Path=OldPrice}" TextDecorations="{Binding Path=OldPriceLine}"></TextBlock>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding Path=NewPrice, StringFormat=' {0}'}"></TextBlock>
+                                        </StackPanel>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding Path=Dimension, StringFormat='Единицы измерения: {0}'}"></TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding Path=Count, StringFormat='Количество на складе: {0}'}"></TextBlock>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Height="100" Width="100">
+                                    <TextBlock Text="{Binding Path=Discount, StringFormat='{}{0} %'}"/>
+                                </Grid>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Добавить" Click="AddProductTable"/>
+                            <MenuItem Header="Изменить" Click="RedactProductTable"/>
+                            <MenuItem Header="Удалить" Click="DeleteProductTable"/>
+                        </ContextMenu>
+                    </ListBox.ContextMenu>
+                </ListBox>
+            </Grid>
+            <Grid Margin="10" Grid.Column="1">
+                <ListBox x:Name="Order_Table">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Height="100" MinWidth="370">
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Width="230" Margin="10">
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=Article}"/>
+                                    <TextBlock Text="{Binding Path=Status, StringFormat='Статус: {0}'}"/>
+                                    <TextBlock Text="{Binding Path=PickupPoint, StringFormat='Адрес пункта выдачи: {0}'}"/>
+                                    <TextBlock Text="{Binding Path=OrderDate, StringFormat='Дата заказа: {0}'}"/>
+                                </StackPanel>
+                                <Grid HorizontalAlignment="Right" VerticalAlignment="Center" Height="90" Width="100" Margin="10">
+                                    <TextBlock Text="{Binding Path=DeliveryDate}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Добавить" Click="AddOrderTable"/>
+                            <MenuItem Header="Изменить" Click="RedactOrderTable"/>
+                            <MenuItem Header="Удалить" Click="DeleteOrderTable"/>
+                        </ContextMenu>
+                    </ListBox.ContextMenu>
+                </ListBox>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

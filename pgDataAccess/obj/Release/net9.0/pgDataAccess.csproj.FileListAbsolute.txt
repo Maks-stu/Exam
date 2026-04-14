@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\bin\Release\net9.0\pgDataAccess.deps.json
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\bin\Release\net9.0\pgDataAccess.dll
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\bin\Release\net9.0\pgDataAccess.pdb
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.AssemblyInfo.cs
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.sourcelink.json
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.dll
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\refint\pgDataAccess.dll
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\pgDataAccess.pdb
+C:\Users\User\Desktop\Максим\Технологи разработки ПО\Тренировка\Shablon\pgDataAccess\obj\Release\net9.0\ref\pgDataAccess.dll
